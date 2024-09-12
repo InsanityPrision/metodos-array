@@ -3,7 +3,9 @@
 let years: number[];
 const actualYear = 2024;
 
-for (let years = 2000; years <= actualYear; years++) {}
+for (let years = 2000; years <= actualYear; years++) {
+  console.log(years);
+}
 
 //ejercicio 2
 
