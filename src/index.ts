@@ -1,11 +1,12 @@
 // ejercicio 1
 
-let years: number[];
+let years: number[] = [];
 const actualYear = 2024;
 
-for (let years = 2000; years <= actualYear; years++) {
-  console.log(years);
+for (let count = 2000; count <= actualYear; count++) {
+  years.push(count);
 }
+console.log(years);
 
 //ejercicio 2
 
